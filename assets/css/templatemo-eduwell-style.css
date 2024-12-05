@@ -153,8 +153,8 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(122, 111, 122);
+  background: linear-gradient(-145deg, rgb(49, 46, 49) 0%, rgb(78, 73, 70) 100%);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -164,14 +164,14 @@ body {
 }
 
 .main-button-gradient a:hover {
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(107, 101, 107);
+  background: linear-gradient(-145deg, rgb(20, 20, 20) 0%, rgb(39, 38, 38) 100%);
   opacity: 0.9;
 }
 
 .white-button a {
   font-size: 13px;
-  color: #dc8cdb;
+  color: #2b282b;
   background-color: #fff;
   padding: 12px 30px;
   display: inline-block;
@@ -188,7 +188,7 @@ body {
 .text-button a {
   font-size: 14px;
   font-weight: 500;
-  color: #dc8cdb;
+  color: #292829;
   text-decoration: underline !important;
   transition: all .3s;
 }
@@ -232,7 +232,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #2b292b;
 }
 
 .section-heading p {
@@ -246,8 +246,8 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgb(219,138,222) !important;
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+  background: rgb(134, 118, 134) !important;
+  background: linear-gradient(-145deg, rgb(124, 108, 124) 0%, rgba(246,191,159,1) 100%) !important;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -405,7 +405,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #dc8cdb!important;
+  color: #555055!important;
   padding-left: 25px;
 }
 
@@ -545,7 +545,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #dc8cdb;
+  color: #444144;
 }
 
 @media (max-width: 1200px) {
@@ -564,7 +564,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #dc8cdb!important;
+    color: #4d4a4c!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -622,7 +622,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #dc8cdb!important;
+    color: #524c52!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -732,7 +732,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #3f3c3f;
 }
 
 .main-banner .main-button-gradient {
@@ -788,7 +788,7 @@ services
 }
 
 .services .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #272627;
 }
 
 
@@ -844,12 +844,12 @@ section.our-courses .naccs .menu div {
   vertical-align: middle;
   font-weight: 900;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  border: 3px solid rgba(219,138,222,0.5);
+  border: 3px solid rgba(87, 83, 87, 0.5);
 }
 
 section.our-courses .naccs .menu div.active {
-  color: #dc8cdb;
-  border: 3px solid rgba(219,138,222,1);
+  color: #3a383a;
+  border: 3px solid rgb(66, 63, 66);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -890,8 +890,8 @@ section.our-courses ul.nacc li .left-image img {
 
 section.our-courses ul.nacc li .left-image .price h6 {
   position: absolute;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(73, 71, 73);
+  background: linear-gradient(-145deg, rgb(54, 54, 54) 0%, rgb(75, 71, 69) 100%);
   color: #fff;
   top: 20px;
   left: 20px;
@@ -1057,7 +1057,7 @@ section.testimonials:after {
 .testimonials .item span {
   font-size: 13px;
   font-weight: 700;
-  color: #dc8cdb;
+  color: #312f31;
 }
 
 .testimonials .item img {
